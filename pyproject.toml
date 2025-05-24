@@ -1,0 +1,17 @@
+[project]
+name = "auth-worker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jsonschema>=4.23.0",
+    "pyhumps>=3.8.0",
+    "redis[hiredis]>=5.2.1",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
