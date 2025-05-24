@@ -1,4 +1,4 @@
-# Saxo Bank API Auth Worker
+# Saxo Bank Auth Worker
 
 A small worker that authenticates with the Saxo Bank API and retrieves an
 access token, which is then stored in a Redis database.
