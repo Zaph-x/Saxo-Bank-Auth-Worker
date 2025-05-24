@@ -7,7 +7,7 @@ This worker is designed to be run as a background service.
 
 ## Prerequisites
 
-- Redis server running on `localhost:6379`
+- Redis server
 - Python 3.12
 - UV
 - Saxo Bank Account with API access
